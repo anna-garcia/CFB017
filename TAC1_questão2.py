@@ -5,15 +5,16 @@ sequência = ""
 # criação de variáveis
 for line in refArquivo.readlines():
 # o readlines() gera uma LISTA com todas as linhas
+# line é uma variável que a cada loop recebe como valor uma lista que contém uma linha do arquivo
     if ">" in line:
-        cabeçalho = line
+        cabeçalho = line.strip('\n');
 # adiciona a linha atual à variável
-        print('\n', cabeçalho, end="")
-# end="" retira a quebra de linha do final
-# eu acho que esse \n no início do print gera uma linha em branco no início
+# o .rstrip('\n') deleta quebras de linha no final da string.
+# sem o .rstrip, o print abaixo gera uma linha em branco entra o cabeçalho e a sequencia
+        print(cabeçalho)
     else:
-        sequência = line.replace('\n',"")
+        sequência = line.strip('\n')
 # deleção das quebras de linha (\n)
         print(sequência, end="")
-
+# o end=”” junta as linhas de AA em uma só.
 refArquivo.close()

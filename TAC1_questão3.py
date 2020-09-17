@@ -11,4 +11,3 @@ with open("/home/carol/Documents/CFB017/species.csv") as csvfile:
 # o operador '*' retorna apenas os elementos da lista 'lines'. 
 # sep="\t" define tab como separador.
             print(*lines,sep="\t")
-

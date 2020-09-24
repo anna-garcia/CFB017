@@ -1,5 +1,5 @@
 ## ITEM 1
-def quantidade_absoluta(coef_m, coef_b, tabela):
+def quantidade_absoluta(tabela, coef_m, coef_b):
 # pra mim só funciona se eu imprtar pandas E pandas as pd.
     import pandas
     import pandas as pd
@@ -16,4 +16,4 @@ def quantidade_absoluta(coef_m, coef_b, tabela):
 ## ITEM 6
     print(df_final)
 # para chamar a função utilize o comando abaixo sem as'#'
-# quantidade_absoluta(-3.397186047, 58.53223295, '/home/carol/Documents/CFB017/Valores_CT.xlsx')
+# quantidade_absoluta('/home/carol/Documents/CFB017/Valores_CT.xlsx', -3.397186047, 58.53223295)

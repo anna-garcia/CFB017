@@ -27,4 +27,4 @@ df_final.to_excel("/home/carol/Documents/CFB017/Tabela_Qntd_Abs.xlsx",sheet_name
 print(df_final)
 # para chamar a função no prompt digite no terminal:
 # python nome_desse_script.py caminho_até_a_sua_tabela coeficiente_m coeficiente_b
-# EX: python TAC2_Quantidade_Absoluta_Vitor.py ~/Documents/CFB017/Valores_CT.xlsx -3.397186047 58.53223295
+# EX: python TAC2_Quantidade_Absoluta.py ~/Documents/CFB017/Valores_CT.xlsx -3.397186047 58.53223295

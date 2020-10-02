@@ -22,7 +22,7 @@ df_q['Quantity'] = 10 ** ((df['CT']-coef_b)/coef_m)
 df_final = df.merge(df_q)
 ## ITEM 5
 # salvar a nova tabela:
-#df_final.to_excel("/home/carol/Documents/CFB017/Tabela_Qntd_Abs.xlsx",sheet_name="CT_Abs")
+df_final.to_excel("/home/carol/Documents/CFB017/Tabela_Qntd_Abs.xlsx",sheet_name="CT_Abs")
 ## ITEM 6
 print(df_final)
 # para chamar a função no prompt digite no terminal:

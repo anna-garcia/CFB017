@@ -8,4 +8,5 @@ for i in seq:
     if str(i).upper() == "G" or str(i).upper() == "C" :
 # contador recebe valor
         count = count+1
-print(count)
+# conteúdo GC é em porcentagem
+print('total = ', len(seq), 'GC = ', count,((count/len(seq))*100))

@@ -6,7 +6,7 @@ from Bio.Seq import Seq
 FASTA = open("/home/carol/Documents/CFB017/sequenciaDesconhecida.fasta")
 for lines in FASTA.readlines():
     if ">" not in lines:
-        DNA = Seq(str(lines))
+        DNA = Seq(str(lines).rstrip('\n'))
 # a função .transcribe realiza a transcrição
         mRNA = DNA.transcribe()
 # a função .translate() realiza a tradução A PARTIR de um RNA

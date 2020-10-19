@@ -15,5 +15,5 @@ def Aprovação(total_faltas, nota_1, nota_2, nota_3):
         print("Nome: ",nome,"Média: ",média, "Faltas: ",percent, "Reprovado por Média")
     elif percent > 25 and média<= 7.0:
         print("Nome: ",nome,"Média: ",média, "Faltas: ",percent, "Reprovado por Falta e Média")
-#para chamar a função: 
+#para chamar a função no IDE: 
 #Aprovação(total_faltas, nota_1, nota_2, nota_3)

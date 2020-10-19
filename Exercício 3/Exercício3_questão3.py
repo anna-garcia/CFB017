@@ -11,4 +11,5 @@ def IMC (altura, peso):
         print(IMC, "Acima do Peso")
     elif IMC>30:
         print(IMC, "Obeso")
+#para chamar a função no IDE:
 IMC(altura,peso)

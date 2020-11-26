@@ -38,6 +38,7 @@ RNA_seq['Rep2_B_CPM'] = RNA_seq['Rep2_B']/(10**6)*(RNA_seq['Rep2_B'].sum())
 
 
 ## ITEM C:
+# calculo da média:
 RNA_seq['Cond_A_CPM_media'] = (RNA_seq['Rep1_A_CPM'] + RNA_seq['Rep2_A_CPM'])/2
 RNA_seq['Cond_B_CPM_media'] = (RNA_seq['Rep1_B_CPM'] + RNA_seq['Rep2_B_CPM'])/2
 
